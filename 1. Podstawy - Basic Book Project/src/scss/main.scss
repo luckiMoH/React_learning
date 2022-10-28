@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(0,0,0,0.1);
+
+  .booklist {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+}
+
+article {
+  background-color: #fff;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10px 10px;
+  margin: 10px 0;
+  border-radius: 15px;
+}
+button {
+  padding: 20px 40px;
+  background-color: grey;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
