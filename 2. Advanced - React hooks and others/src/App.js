@@ -10,6 +10,7 @@ import MultipleReturns from "./tutorial/3-conditional-rendering/setup/1-multiple
 import ShortCircuit from "./tutorial/3-conditional-rendering/setup/2-short-circuit";
 import ShowHide from "./tutorial/3-conditional-rendering/setup/3-show-hide";
 import ControlledInputs from "./tutorial/4-forms/setup/1-controlled-inputs";
+import MultipleInputs from "./tutorial/4-forms/setup/2-multiple-inputs"
 
 function App() {
   return (
@@ -33,8 +34,10 @@ function App() {
         <ShortCircuit />
         <br/> <hr />
         <ShowHide />
-          <br/> <hr />
-          <ControlledInputs />
+        <br/> <hr />
+        <ControlledInputs />
+        <br/> <hr />
+        <MultipleInputs />
     </div>
   )
 }
