@@ -28,13 +28,15 @@ const MultipleReturns = () => {
   if (isloading) {
     return (
         <div>
-          <h2>Loading...</h2>
+            <h2>Multiple returns</h2>
+            <h2>Loading...</h2>
         </div>
     )
   }
   if (isError) {
       return (
           <div>
+              <h2>Multiple returns</h2>
               <h2>Error...</h2>
           </div>
         )
@@ -42,7 +44,8 @@ const MultipleReturns = () => {
   else {
     return (
         <div>
-          <h2>{user}</h2>
+            <h2>Multiple returns</h2>
+            <h2>{user}</h2>
         </div>
     );
   }
