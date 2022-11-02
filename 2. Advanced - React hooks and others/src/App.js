@@ -12,6 +12,7 @@ import ShowHide from "./tutorial/3-conditional-rendering/setup/3-show-hide";
 import ControlledInputs from "./tutorial/4-forms/setup/1-controlled-inputs";
 import MultipleInputs from "./tutorial/4-forms/setup/2-multiple-inputs"
 import UseRefBasics from "./tutorial/5-useRef/setup/1-useRef-basics";
+import Setup from './tutorial/6-useReducer/setup'
 
 function App() {
   return (
@@ -41,6 +42,8 @@ function App() {
         <MultipleInputs />
           <br/> <hr />
           <UseRefBasics />
+          <br/> <hr />
+          <Setup />
     </div>
   )
 }
